@@ -1,6 +1,7 @@
 # Cross-Modal Field Coupling Demo (TVS)
 
-This repository is a minimal compiled TypeScript CLI demo that proves an end-to-end path of `tag -> transform -> governance decision -> audit log -> memory echo`. It enforces strict invariants around `CommitClass` behavior, semantic trust via `SemanticBasis`, deterministic governance checks for replayability requirements, and provenance capture during transformation.
+This repository is a minimal compiled TypeScript CLI demo that proves an end-to-end path of 
+`tag -> transform -> governance decision -> audit log -> memory echo`. It enforces strict invariants around `CommitClass` behavior, semantic trust via `SemanticBasis`, deterministic governance checks for replayability requirements, and provenance capture during transformation.
 
 The demo also shows associative memory traces and echo querying with an explicit threshold in interactive mode. Echoes remain non-canonical and non-durable by design, while deterministic ordering and clear audit output make behavior easy to inspect and verify.
 
