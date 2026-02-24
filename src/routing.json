@@ -1,0 +1,11 @@
+{
+  "audio.salience->language.intent.v1": {
+    "from": "audio.salience",
+    "to": "language.intent",
+    "validation": {
+      "requiredSemanticBasis": "inferred",
+      "requiredDeterminism": "stochastic_replayable",
+      "requiresReplayArtifactsForCanonical": true
+    }
+  }
+}
